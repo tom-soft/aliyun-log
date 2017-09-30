@@ -1,0 +1,38 @@
+{
+    "name": "tomsoft/aliyun-log",
+    "type": "library",
+    "description": "Aliyun Log For Laravel",
+    "keywords": [
+        "laravel",
+        "tomsoft",
+        "aliyun",
+        "log",
+        "driver",
+        "cloud",
+        "laravel-log"
+    ],
+    "homepage": "https://github.com/tom-soft/aliyun-log",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yu Qian",
+            "email": "45054958@qq.com",
+            "homepage": "https://github.com/tom-soft"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/config": "~5.0",
+        "illuminate/support": "~5.0",
+        "guozhongxiang/aliyun-log-sdk":"1.0.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tomsoft\\LaravelLog\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
