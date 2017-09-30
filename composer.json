@@ -34,5 +34,5 @@
             "Tomsoft\\LaravelLog\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
